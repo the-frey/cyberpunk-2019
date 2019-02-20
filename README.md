@@ -1,10 +1,11 @@
+```
    ______      __                                __  
   / ____/_  __/ /_  ___  _________  __  ______  / /__
  / /   / / / / __ \/ _ \/ ___/ __ \/ / / / __ \/ //_/
 / /___/ /_/ / /_/ /  __/ /  / /_/ / /_/ / / / / ,<   
 \____/\__, /_.___/\___/_/  / .___/\__,_/_/ /_/_/|_|  
      /____/               /_/                        
-
+```
 
 ![cyberpunk](https://raw.githubusercontent.com/the-frey/cyberpunk-2019/master/cyberpunk-2019.png)
 
@@ -51,4 +52,6 @@ If you're on mac, you might want these styles for your terminal as well. There's
 These are based on the VS Code Cyberpunk iTerm addon, but rejigged and altered to fit `oh-my-zsh` and `agnoster`.
 
 At some point I will make some standard terminal colours so this is Linux compatible.
+
+![cyberpunk terminal](https://raw.githubusercontent.com/the-frey/cyberpunk-2019/master/cyberpunk-2019-terminal.png)
 
