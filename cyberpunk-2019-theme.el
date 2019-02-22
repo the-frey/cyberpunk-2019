@@ -1,7 +1,6 @@
-;;; cyberpunk-2019.el - a custom theme inspired by the Tron: Legacy theme by
-;;  Ian Y.E. Pan and Cyberpunk VS Code theme by Max-SS et al.
+;;; cyberpunk-2019.el --- A retina-scorching cyberpunk theme 
 ;;
-;;  Copyright© 2019 Alex Lynham
+;;  Copyright (C) 2019 Alex Lynham
 ;;  Licensed under GNU GPLv3
 ;;
 ;;  This program is free software: you can redistribute it and/or modify
@@ -17,7 +16,15 @@
 ;;  You should have received a copy of the GNU General Public License
 ;;  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ;;
-;;  Author: Alex Lynham
+;; Author: Alex Lynham
+;; Version: 0.0.1
+;; Keywords: cyberpunk, theme
+;; URL: https://github.com/the-frey/cyberpunk-2019
+;;
+;;; Commentary:
+;;     
+;; A custom theme inspired by the Tron: Legacy theme by
+;; Ian Y.E. Pan and Cyberpunk VS Code theme by Max-SS et al.
 
 (deftheme cyberpunk-2019
   "Custom theme by Alex Lynham. Licensed under GNU GPLv3.")
