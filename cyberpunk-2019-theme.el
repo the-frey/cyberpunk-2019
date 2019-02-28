@@ -114,6 +114,22 @@
 
  )
 
+    ;; helm
+   `(helm-header ((t (:foreground "#FF4081" :background "#372963" :underline nil :box nil))))
+   `(helm-source-header
+     ((t (:foreground "#FF4081"
+                      :background "#372963"
+                      :underline nil
+                      :weight bold
+                      :box (:line-width 1 :style released-button)))))
+   `(helm-selection-line ((t (:background "#4B3E72" ))))
+   `(helm-visible-mark ((t (:background "#4B3E72" :foreground "#00E3FF"))))
+   `(helm-candidate-number ((t (:background "#4B3E72" :foreground "#00E3FF"))))
+   `(helm-separator ((t (:background "#4B3E72" :foreground "#00E3FF"))))
+   `(helm-match ((t (:background "#4B3E72"))))
+   `(helm-selection ((t ( :background "#4B3E72" :foreground "#00E3FF" :underline nil))))
+
+
 (provide-theme 'cyberpunk-2019)
 
 ;;; cyberpunk-2019-theme.el ends here
