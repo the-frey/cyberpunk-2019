@@ -39,20 +39,25 @@
  `(region ((t (:background "#009fff"))))
  `(bold ((t (:weight normal :foreground "#FF9C00"))))
  `(fringe ((t (:background "#4B3E72"))))
+
  `(mode-line ((t (:foreground "#FFFAFA" :background "#FF9C00"))))
  `(mode-line-inactive ((t (:foreground "#CBECFF" :background "#3D5666"))))
+
  `(highlight ((t (:background "#262F36"))))
+
  `(ido-first-match ((t (:foreground "#D7F0FF" :weight bold))))
  `(ido-only-match ((t (:foreground "#31C0C0"))))
  `(ido-subdir ((t (:foreground "#5DC4FF"))))
+
  `(isearch ((t (:background "#4D4FBB" :foreground "#FFFAFA"))))
  `(lazy-highlight ((t (:background "#659F93" :foreground "#FFFAFA"))))
+
  `(linum ((t (:background "#4B3E72" :foreground "#CBEBFF"))))
  `(nlinum-relative-current-face ((t (:inherit linum :background "#4B3E72" :foreground "#BEFF00" :weight normal))))
+
  `(font-lock-builtin-face ((t (:foreground "#00FFC1"))))
  `(font-lock-doc-face ((t (:foreground "#7FDEFF" :italic t))))
- `(font-lock-comment-face ((t (
-                               :foreground "#CBEBFF"
+ `(font-lock-comment-face ((t (:foreground "#CBEBFF"
                                :background nil
                                :italic t))))
  `(font-lock-string-face ((t (:foreground "#7FDEFF"))))
@@ -62,17 +67,15 @@
  `(font-lock-negation-char-face ((t (:foreground "#5EC4FF"))))
  `(font-lock-preprocessor-face ((t (:foreground "#5EC4FF"))))
  `(font-lock-type-face ((t (:foreground "#FF9C00"))))
-
  `(font-lock-constant-face ((t (:foreground "#66FFC4"))))
  `(minibuffer-prompt ((t (:foreground "#729FCF" ))))
  `(font-lock-warning-face ((t (:foreground "red" :bold t))))
- `(dashboard-banner-logo-title-face ((t (
-                                         :inherit default
+
+ `(dashboard-banner-logo-title-face ((t (:inherit default
                                          :overline t
                                          :height 1.15
                                          :family "Monaco"))))
- `(dashboard-heading-face ((t (
-                               :inherit default
+ `(dashboard-heading-face ((t (:inherit default
                                :foreground "#CBEBFF"
                                :height 1.1))))
 
@@ -85,18 +88,15 @@
  `(org-block ((t (:background "#4B3E72" :foreground "#00E3FF"))))
  `(org-document-title ((t (:height 2.0 :foreground "#CBEBFF"
                                    :family "Georgia"))))
- `(org-level-1 ((t (
-                    :inherit outline-1
+ `(org-level-1 ((t (:inherit outline-1
                     :weight bold
                     :foreground "#7FDEFF"
                     :height 1.3))))
- `(org-level-2 ((t (
-                    :inherit outline-2
+ `(org-level-2 ((t (:inherit outline-2
                     :weight bold
                     :foreground "#00FFC1"
                     :height 1.1))))
- `(org-level-3 ((t (
-                    :inherit outline-3
+ `(org-level-3 ((t (:inherit outline-3
                     :weight bold
                     :foreground "#00BEFF"
                     :height 1.1))))
@@ -112,6 +112,18 @@
  `(rainbow-delimiters-depth-8-face ((t (:foreground "#BEFF00"))))
  `(rainbow-delimiters-depth-9-face ((t (:foreground "#FF00BE"))))
 
+ `(helm-header ((t (:foreground "#FF00BE" :background "#372963" :underline nil :box nil))))
+ `(helm-source-header ((t (:foreground "#FF4081"
+                           :background "#372963"
+                           :underline nil
+                           :weight bold
+                           :box (:line-width 1 :style released-button)))))
+ `(helm-selection-line ((t (:background "#00FF9C" ))))
+ `(helm-visible-mark ((t (:background "#4B3E72" :foreground "#00E3FF"))))
+ `(helm-candidate-number ((t (:background "#4B3E72" :foreground "#00E3FF"))))
+ `(helm-separator ((t (:background "#4B3E72" :foreground "#00E3FF"))))
+ `(helm-match ((t (:background "#9C00FF"))))
+ `(helm-selection ((t ( :background "#FF9C00" :foreground "#FFFAFA" :underline nil))))
  )
 
 (provide-theme 'cyberpunk-2019)
