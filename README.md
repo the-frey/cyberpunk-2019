@@ -30,7 +30,7 @@ If you use the modeline, you might also want these styles in your `init.el`, alt
 
 ```
  '(mode-line ((t (:foreground "#fafafa" :background "DarkOrange" :box nil))))
- '(mode-line-inactive ((t (:foreground "#fafafa" :background "#666666" :box nil))))\
+ '(mode-line-inactive ((t (:foreground "#fafafa" :background "#666666" :box nil))))
 ```
 
 These should go in the `custom-set-faces` block provided by `M-x customize`.
@@ -47,7 +47,7 @@ If you use flycheck, you might want to add the following to your init file.
 
 ### iTerm2
 
-If you're on mac, you might want these styles for your terminal as well. There's an `.itermcolors` file in this repo you can use. The colours might look a bit weird until you load it - that's because I use `oh-my-zsh` with the `agnoster` theme, and this file is explicitly designed to work with that theme, its modeline and git feautres. YMMV with other setups.
+If you're on mac, you might want these styles for your terminal as well. There's an `.itermcolors` file in this repo you can use. The colours might look a bit weird until you load it - that's because I use `oh-my-zsh` with the `agnoster` theme, and this file is explicitly designed to work with that theme, its modeline and git features. YMMV with other setups.
 
 These are based on the [VS Code Cyberpunk iTerm addon by Murderlon](https://github.com/Murderlon/cyberpunk-iterm), but rejigged and altered to fit `oh-my-zsh` and `agnoster`.
 
