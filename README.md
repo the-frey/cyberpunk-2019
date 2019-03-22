@@ -1,3 +1,5 @@
+[![MELPA](https://melpa.org/packages/cyberpunk-2019-theme-badge.svg)](https://melpa.org/#/cyberpunk-2019-theme)
+
 ```
    ______      __                                __      ___   ____ _______ 
   / ____/_  __/ /_  ___  _________  __  ______  / /__   |__ \ / __ <  / __ \
