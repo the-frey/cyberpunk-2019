@@ -126,6 +126,12 @@
  `(helm-selection ((t ( :background "#FF9C00" :foreground "#FFFAFA" :underline nil))))
  )
 
+;; Makes sure that the theme is loaded
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'cyberpunk-2019)
 
 ;;; cyberpunk-2019-theme.el ends here
