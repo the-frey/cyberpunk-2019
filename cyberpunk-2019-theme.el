@@ -88,19 +88,31 @@
  `(org-block ((t (:background "#4B3E72" :foreground "#00E3FF"))))
  `(org-document-title ((t (:height 2.0 :foreground "#CBEBFF"
                                    :family "Georgia"))))
- `(org-level-1 ((t (:inherit outline-1
+
+ `(org-level-1 ((t (
+                    :inherit outline-1
                     :weight bold
-                    :foreground "#7FDEFF"
+                    :foreground "#FF4081"
                     :height 1.3))))
- `(org-level-2 ((t (:inherit outline-2
+ `(org-level-2 ((t (
+                    :inherit outline-2
                     :weight bold
-                    :foreground "#00FFC1"
+                    :foreground "#00FF9C"
                     :height 1.1))))
- `(org-level-3 ((t (:inherit outline-3
+ `(org-level-3 ((t (
+                    :inherit outline-3
                     :weight bold
                     :foreground "#00BEFF"
                     :height 1.1))))
- `(org-table ((t (:background "#FF4081" :foreground "#729FCF"))))
+ `(org-done ((t (
+                 :foreground "#9C00FF"
+                 :weight bold
+                 :strike-through t))))
+ `(org-todo ((t (
+                 :foreground "#FEF96A"
+                 :weight bold
+                 :box t))))
+ `(org-table ((t (:background "#372963" :foreground "#00E3FF"))))
 
  `(rainbow-delimiters-depth-1-face ((t (:foreground "#00FF9C"))))
  `(rainbow-delimiters-depth-2-face ((t (:foreground "#FF4081"))))
