@@ -104,7 +104,6 @@
                     :weight bold
                     :foreground "#00BEFF"
                     :height 1.1))))
- `(org-table ((t (:background "#FF4081" :foreground "#729FCF"))))
  `(org-done ((t (
                  :foreground "#9C00FF"
                  :weight bold
@@ -113,6 +112,7 @@
                  :foreground "#FEF96A"
                  :weight bold
                  :box t))))
+ `(org-table ((t (:background "#372963" :foreground "#00E3FF"))))
 
  `(rainbow-delimiters-depth-1-face ((t (:foreground "#00FF9C"))))
  `(rainbow-delimiters-depth-2-face ((t (:foreground "#FF4081"))))
