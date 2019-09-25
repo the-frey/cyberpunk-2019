@@ -71,6 +71,19 @@
  `(minibuffer-prompt ((t (:foreground "#729FCF" ))))
  `(font-lock-warning-face ((t (:foreground "red" :bold t))))
 
+ `(diff-header				((t (:foreground "white"))))
+ `(diff-file-header			((t (:inherit diff-header))))
+ `(diff-index				((t (:inherit diff-file-header))))
+ `(diff-added				((t (:foreground "#9C00FF"))))
+ `(diff-changed				((t (:foreground "#FF9C00"))))
+ `(diff-removed				((t (:foreground "#FF4081"))))
+ `(diff-indicator-added			((t (:inherit diff-added :bold t))))
+ `(diff-indicator-changed		((t (:inherit diff-changed :bold t))))
+ `(diff-indicator-removed		((t (:inherit diff-removed :bold t))))
+ `(diff-refine-added			((t (:inherit diff-added :inverse-video t))))
+ `(diff-refine-changed			((t (:inherit diff-changed :inverse-video t))))
+ `(diff-refine-removed			((t (:inherit diff-removed :inverse-video t))))
+
  `(dashboard-banner-logo-title-face ((t (:inherit default
                                          :overline t
                                          :height 1.15
