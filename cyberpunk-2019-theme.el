@@ -101,6 +101,110 @@
  `(ediff-odd-diff-B			((t (:inherit ediff-even-diff-B))))
  `(ediff-odd-diff-C			((t (:inherit ediff-even-diff-C))))
 
+ `(magit-section-highlight		((t (:inherit header-line :weight bold))))
+ `(magit-section-heading		((t (:inherit header-line))))
+ `(magit-section-heading-selection	((t (:inherit header-line :inverse-video t))))
+
+ `(magit-diff-file-heading		((t (:inherit diff-file-header))))
+ `(magit-diff-file-heading-highlight	((t (:inherit diff-file-header :weight bold))))
+ `(magit-diff-file-heading-selection	((t (:inherit diff-file-header :inverse-video t))))
+
+ `(magit-diff-hunk-heading		((t (:inherit diff-hunk-header))))
+ `(magit-diff-hunk-heading-highlight	((t (:inherit diff-hunk-header :weight bold))))
+ `(magit-diff-hunk-heading-selection	((t (:inherit diff-hunk-header :inverse-video t))))
+ `(magit-diff-hunk-region		((t (:inherit default))))
+
+ `(magit-diff-lines-boundary		((t (:inherit default))))
+ `(magit-diff-lines-heading		((t (:inherit heading-line))))
+
+ `(magit-diff-added			((t (:inherit diff-added))))
+ `(magit-diff-added-highlight		((t (:inherit diff-added :weight bold))))
+
+ `(magit-diff-removed			((t (:inherit diff-removed))))
+ `(magit-diff-removed-highlight		((t (:inherit diff-removed :weight bold))))
+
+ `(magit-diff-context			((t (:inherit diff-context))))
+ `(magit-diff-context-highlight		((t (:inherit diff-context :weight bold))))
+
+ `(magit-diff-our			((t (:inherit ediff-current-diff-A))))
+ `(magit-diff-our-highlight		((t (:inherit ediff-current-diff-A :weight bold))))
+
+ `(magit-diff-base			((t (:inherit ediff-current-diff-Ancestor))))
+ `(magit-diff-base-highlight		((t (:inherit ediff-current-diff-Ancestor :weidht bold))))
+
+ `(magit-diff-their			((t (:inherit ediff-current-diff-C))))
+ `(magit-diff-their-highlight		((t (:inherit ediff-current-diff-C :weight bold))))
+
+ `(magit-diff-whitespace-warning	((t (:inherit trailing-whitespace))))
+
+ `(magit-diffstat-added			((t (:inherit diff-added))))
+ `(magit-diffstat-removed		((t (:inherit diff-removed))))
+
+ `(magit-popup-heading			((t (:inherit header-line))))
+ `(magit-popup-key			((t (:inherit default))))
+ `(magit-popup-argument			((t (:inherit default))))
+ `(magit-popup-disabled-argument	((t (:inherit default))))
+ `(magit-popup-option-value		((t (:inherit default))))
+
+ `(magit-process-ok			((t (:inherit success))))
+ `(magit-process-ng			((t (:inherit error))))
+
+ `(magit-log-author			((t (:inherit change-log-name))))
+ `(magit-log-date			((t (:inherit change-log-date))))
+ `(magit-log-graph			((t (:inherit default))))
+
+ `(magit-filename			((t (:inherit change-log-file))))
+
+ `(magit-sequence-pick			((t (:inherit default))))
+ `(magit-sequence-stop			((t (:inherit default))))
+ `(magit-sequence-part			((t (:inherit default))))
+ `(magit-sequence-head			((t (:inherit default))))
+ `(magit-sequence-drop			((t (:inherit default))))
+ `(magit-sequence-done			((t (:inherit default))))
+ `(magit-sequence-onto			((t (:inherit default))))
+
+ `(magit-bisect-good			((t (:inherit success))))
+ `(magit-bisect-skip			((t (:inherit default))))
+ `(magit-bisect-bad			((t (:inherit warning))))
+
+ `(magit-blame-heading			((t (:inherit header-line))))
+ `(magit-blame-hash			((t (:inherit default))))
+ `(magit-blame-name			((t (:inherit change-log-name))))
+ `(magit-blame-date			((t (:inherit change-log-date))))
+ `(magit-blame-summary			((t (:inherit default))))
+
+ `(magit-dimmed				((t (:inherit shadow))))
+ `(magit-hash				((t (:inherit default :weight bold))))
+ `(magit-tag				((t (:inherit default :weight bold))))
+ `(magit-branch-remote			((t (:inherit default :weight bold))))
+ `(magit-branch-local			((t (:inherit default :weight bold))))
+ `(magit-branch-current			((t (:inherit default :weight bold))))
+ `(magit-head				((t (:inherit default :weight bold))))
+ `(magit-refname			((t (:inherit default :weight bold))))
+ `(magit-refname-stash			((t (:inherit default :weight bold))))
+ `(magit-refname-wip			((t (:inherit default :weight bold))))
+
+ `(magit-signature-bad			((t (:inherit error))))
+ `(magit-signature-error		((t (:inherit error :weight bold))))
+ `(magit-signature-expired		((t (:inherit warning))))
+ `(magit-signature-expired-key		((t (:inherit warning))))
+ `(magit-signature-good			((t (:inherit success))))
+ `(magit-signature-revoked		((t (:inherit warning))))
+ `(magit-signature-untrusted		((t (:inherit warning))))
+
+ `(magit-cherry-unmatched		((t (:inherit default))))
+ `(magit-cherry-equivalent		((t (:inherit default))))
+
+ `(magit-reflog-commit			((t (:inherit default :weight bold))))
+ `(magit-reflog-amend			((t (:inherit default :weight bold))))
+ `(magit-reflog-merge			((t (:inherit default :weight bold))))
+ `(magit-reflog-checkout		((t (:inherit default :weight bold))))
+ `(magit-reflog-reset			((t (:inherit default :weight bold))))
+ `(magit-reflog-rebase			((t (:inherit default :weight bold))))
+ `(magit-reflog-cherry-pick		((t (:inherit default :weight bold))))
+ `(magit-reflog-remote			((t (:inherit default :weight bold))))
+ `(magit-reflog-other			((t (:inherit default :weight bold))))
+
  `(dashboard-banner-logo-title-face ((t (:inherit default
                                          :overline t
                                          :height 1.15
