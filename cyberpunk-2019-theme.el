@@ -84,6 +84,23 @@
  `(diff-refine-changed			((t (:inherit diff-changed :inverse-video t))))
  `(diff-refine-removed			((t (:inherit diff-removed :inverse-video t))))
 
+ `(ediff-current-diff-A			((t (:bold t))))
+ `(ediff-current-diff-Ancestor		((t (:inherit ediff-current-diff-A))))
+ `(ediff-current-diff-B			((t (:bold t))))
+ `(ediff-current-diff-C			((t (:bold t))))
+ `(ediff-fine-diff-A			((t (:inherit ediff-current-diff-A :inverse-video t))))
+ `(ediff-fine-diff-Ancestor		((t (:inherit ediff-fine-diff-A))))
+ `(ediff-fine-diff-B			((t (:inherit ediff-current-diff-B :inverse-video t))))
+ `(ediff-fine-diff-C			((t (:inherit ediff-current-diff-C :inverse-video t))))
+ `(ediff-even-diff-A			((t (:inherit ediff-current-diff-A))))
+ `(ediff-even-diff-Ancestor		((t (:inherit ediff-even-diff-A))))
+ `(ediff-even-diff-B			((t (:inherit ediff-current-diff-B))))
+ `(ediff-even-diff-C			((t (:inherit ediff-current-diff-C))))
+ `(ediff-odd-diff-A			((t (:inherit ediff-even-diff-A))))
+ `(ediff-odd-diff-Ancestor		((t (:inherit ediff-odd-diff-A))))
+ `(ediff-odd-diff-B			((t (:inherit ediff-even-diff-B))))
+ `(ediff-odd-diff-C			((t (:inherit ediff-even-diff-C))))
+
  `(dashboard-banner-logo-title-face ((t (:inherit default
                                          :overline t
                                          :height 1.15
