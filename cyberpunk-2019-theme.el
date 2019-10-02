@@ -114,6 +114,14 @@
                  :box t))))
  `(org-table ((t (:background "#372963" :foreground "#00E3FF"))))
 
+ `(flymake-error ((t (:underline (:color "#FF4081")))))
+ `(flymake-warning ((t (:underline (:color "#FF9C00")))))
+ `(flymake-info ((t (:underline (:color "#9C00FF")))))
+
+ `(flycheck-error ((t (:underline (:color "#FF4081")))))
+ `(flycheck-warning ((t (:underline (:color "#FF9C00")))))
+ `(flycheck-info ((t (:underline (:color "#9C00FF")))))
+
  `(rainbow-delimiters-depth-1-face ((t (:foreground "#00FF9C"))))
  `(rainbow-delimiters-depth-2-face ((t (:foreground "#FF4081"))))
  `(rainbow-delimiters-depth-3-face ((t (:foreground "#00BEFF"))))
